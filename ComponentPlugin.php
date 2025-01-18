@@ -25,4 +25,18 @@ class ComponentPlugin implements PluginInterface
         $installer = new ComponentInstaller($io, $composer);
         $composer->getInstallationManager()->addInstaller($installer);
     }
+
+    public function deactivate(Composer $composer, IOInterface $io)
+    {
+        // Code vô hiệu hóa plugin (nếu cần)
+        // Nếu không cần, để trống
+        $composer->getInstallationManager()->removeInstaller($this->installer);
+    }
+
+    public function uninstall(Composer $composer, IOInterface $io)
+    {
+        // Code gỡ bỏ plugin (nếu cần)
+        // Nếu không cần, để trống
+        $composer->getInstallationManager()->removeInstaller($this->installer);
+    }
 }
