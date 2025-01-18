@@ -1,5 +1,5 @@
 {
-    "name": "medkey/composer-plugin",
+    "name": "michaelpham/composer-plugin",
     "description": "Composer Medkey Plugin",
     "keywords": ["composer", "medkey", "module", "plugin", "ehr", "emr"],
     "homepage": "https://medkey.org",

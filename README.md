@@ -13,7 +13,7 @@ directory `/plugins`.
 Current version: 1.0
 
 Version of this composer plugin must be equal to major version of main application. For example, `medkey/medkey` v1.x
-requires `medkey/composer-plugin` v1.0. Other changes must be determined at composer.json and composer.lock files of main
+requires `michaelpham/composer-plugin` v1.0. Other changes must be determined at composer.json and composer.lock files of main
 Medkey application.
 
 To check version see file named `version`: `cat version`.
