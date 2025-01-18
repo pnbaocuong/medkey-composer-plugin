@@ -6,3 +6,6 @@ composer.phar
 
 # netbeans project files
 nbproject
+
+# Inorge the vendor directory
+/vendor
